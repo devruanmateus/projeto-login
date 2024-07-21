@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../imagens/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    #formulario {
+        color: #fff;
+    }
+
+    #imagem {
+        display: none;
+        margin-top: 20px;
+        border-radius: 20px;
+        width: 100%; /* Ajuste o tamanho conforme necessário */
+        height: 200px;
+    }
+
+    #formulario > p {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    form input {
+        font-size: 11px;
+    }
+
+    main > section {
+        width: 70vw;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+}
